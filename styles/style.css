@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+:root {
+    --porcentagem-gradient: 0.55;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, var(--porcentagem-gradient)), rgba(0, 0, 0, var(--porcentagem-gradient))), url('../images/background.cdab245e.webp') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.first-content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-content-logo img {
+    width: 63px;
+    margin-top: 50px;
+}
+
+.first-content-image img {
+    width: 504px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.first-content-text h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.out-now-socials {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    max-width: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.out-now-socials i {
+    color: #bf9b74;
+    cursor: pointer;
+    ;
+}
+
+.out-now-socials i:hover {
+    color: #Fff;
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+}
+
+.button-area button {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    fill: #bf9b74;
+    color: #bf9b74;
+    background-color: #61ce7000;
+    border: 1px solid #bf9b74;
+    border-radius: 3px;
+    padding: 6.5px 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.button-area button:hover {
+    cursor: pointer;
+    color: #1a1a1a;
+    background-color: transparent;
+    background-image: linear-gradient(40deg, #bf9b74 44%, #fff);
+}
+
+
+/*section 2*/
+
+.naacp-winner {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+.naacp-winner img {
+    width: 857px;
+    background: none;
+    position: relative;
+    max-width: 100%;
+}
+
+.naacp-winner h2 {
+    background-image: linear-gradient(to right top, #9f7542, #b89269, #d0b192, #e6d0bc, #fcf1e7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+
+/*third part*/
+
+.biografy {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-image {
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bio-image img {
+    position: relative;
+    width: 540px;
+    border-radius: 10px;
+    margin-right: -15px;
+}
+
+.bio-text {
+    width: 50vw;
+    display: flex;
+}
+
+.bio-txt {
+    max-width: 60%;
+    height: 670px;
+    padding: 30px;
+    background-color: hsla(0, 0%, 100%, .1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.bio-txt h2 {
+    background-image: linear-gradient(to right top, #9f7542, #b89269, #d0b192, #e6d0bc, #fcf1e7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.bio-txt p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.biotxt-social {
+    display: flex;
+    height: 50px;
+    align-items: flex-end;
+    color: #bf9b74;
+    gap: 3vw;
+}
+
+.biotxt-social i {
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.biotxt-social i:hover {
+    top: -10px;
+}
+
+
+/*seg*/
+
+.section-barthology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-barthology h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+.section-barthology button {
+    font-size: 20px;
+    font-weight: 400;
+    fill: #bf9b74;
+    color: #bf9b74;
+    background-color: #61ce7000;
+    border: 1px solid #bf9b74;
+    border-radius: 3px;
+    padding: 6.5px 70px;
+    margin-top: 30px;
+}
+
+.section-barthology button:hover {
+    cursor: pointer;
+    color: #1a1a1a;
+    background-color: transparent;
+    background-image: linear-gradient(40deg, #bf9b74 44%, #fff);
+}
+
+.section-barthology img {
+    width: 545px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.section-bart-and-friends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.section-bart-and-friends h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 90px;
+}
+
+.section-bart-and-friends button {
+    font-size: 20px;
+    font-weight: 400;
+    fill: #bf9b74;
+    color: #bf9b74;
+    background-color: #61ce7000;
+    border: 1px solid #bf9b74;
+    border-radius: 3px;
+    padding: 6.5px 70px;
+    margin-top: 30px;
+}
+
+.section-bart-and-friends button:hover {
+    cursor: pointer;
+    color: #1a1a1a;
+    background-color: transparent;
+    background-image: linear-gradient(40deg, #bf9b74 44%, #fff);
+}
+
+.section-bart-and-friends img {
+    width: 545px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.ytb-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ytb-section h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 90px;
+}
+
+#followbart {
+    margin-top: 250px;
+}
+
+.follow-bart {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.follow-bart i {
+    color: #bf9b74;
+    cursor: pointer;
+}
+
+.follow-bart i:hover {
+    color: #fff;
+}
+
+.ytb-section button {
+    font-size: 20px;
+    font-weight: 400;
+    fill: #bf9b74;
+    color: #bf9b74;
+    background-color: #61ce7000;
+    border: 1px solid #bf9b74;
+    border-radius: 3px;
+    padding: 6.5px 70px;
+    margin-top: 30px;
+}
+
+.ytb-section button:hover {
+    cursor: pointer;
+    color: #1a1a1a;
+    background-color: transparent;
+    background-image: linear-gradient(40deg, #bf9b74 44%, #fff);
+}
+
+.ytb-section iframe {
+    margin-top: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    margin-top: 150px;
+    height: 5vh;
+}
+
+footer span {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .naacp-winner img {
+        margin-top: 70px;
+        width: 550px;
+    }
+    .bio-image {
+        padding-left: 5vw;
+        width: 50%;
+    }
+    .bio-image img {
+        width: 110%;
+        height: 510px;
+    }
+    .bio-txt {
+        height: auto;
+        width: 350px;
+        padding-right: 5vw;
+        max-width: none;
+        margin-top: 100px;
+    }
+    .bio-txt p {
+        font-size: 1rem;
+    }
+}
