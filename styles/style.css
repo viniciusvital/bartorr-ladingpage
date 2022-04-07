@@ -346,6 +346,27 @@ footer span {
     color: #fff;
 }
 
+@media only screen and (max-width: 1024px) {
+    .naacp-winner {
+        margin-top: 60px;
+    }
+    .naacp-winner img {
+        width: 650px;
+    }
+    .bio-image {
+        margin-left: 5vw;
+    }
+    .bio-txt {
+        height: auto;
+        width: 450px;
+        max-width: none;
+        margin-top: 50px;
+    }
+}
+
+
+/* TABLET MODE */
+
 @media only screen and (max-width: 768px) {
     .naacp-winner img {
         margin-top: 70px;
