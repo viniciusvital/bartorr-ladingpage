@@ -398,18 +398,22 @@ footer span {
 @media only screen and (max-width: 425px) {
     .first-content {
         height: 79vh;
+        overflow-x: hidden;
     }
     .first-content-logo img {
         width: 2.7rem;
+        overflow-x: hidden;
     }
     .first-content-image img {
         width: 250px;
+        overflow-x: hidden;
     }
     .out-now-socials {
         width: 70%;
     }
     .button-area {
         flex-wrap: wrap;
+        overflow-x: hidden;
     }
     .button-area button {
         width: 90%;
@@ -433,7 +437,6 @@ footer span {
         width: 350px;
     }
     .bio-text {
-        /* background-color: red; */
         width: 100%;
         margin-top: -80px;
         padding-top: 0;
