@@ -20,7 +20,6 @@ body {
 }
 
 .first-content {
-    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -29,7 +28,6 @@ body {
 
 .first-content-logo img {
     width: 63px;
-    margin-top: 50px;
 }
 
 .first-content-image img {
@@ -57,7 +55,6 @@ body {
 .out-now-socials i {
     color: #bf9b74;
     cursor: pointer;
-    ;
 }
 
 .out-now-socials i:hover {
@@ -95,7 +92,6 @@ body {
 
 .naacp-winner {
     display: flex;
-    height: 100vh;
     width: 100vw;
     align-items: center;
     flex-direction: column;
@@ -368,8 +364,10 @@ footer span {
 /* TABLET MODE */
 
 @media only screen and (max-width: 768px) {
-    .naacp-winner img {
+    .naacp-winner {
         margin-top: 70px;
+    }
+    .naacp-winner img {
         width: 550px;
     }
     .bio-image {
@@ -396,30 +394,23 @@ footer span {
 /* smartphone mode */
 
 @media only screen and (max-width: 425px) {
-    .first-content {
-        height: 79vh;
-        overflow-x: hidden;
+    .first-content-logo {
+        margin-top: 50px;
     }
     .first-content-logo img {
         width: 2.7rem;
-        overflow-x: hidden;
     }
     .first-content-image img {
         width: 250px;
-        overflow-x: hidden;
     }
     .out-now-socials {
         width: 70%;
     }
     .button-area {
         flex-wrap: wrap;
-        overflow-x: hidden;
     }
     .button-area button {
         width: 90%;
-    }
-    .naacp-winner {
-        height: 55vh;
     }
     .naacp-winner img {
         width: 250px;
