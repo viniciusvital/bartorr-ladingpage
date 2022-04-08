@@ -391,3 +391,81 @@ footer span {
         font-size: 1rem;
     }
 }
+
+
+/* smartphone mode */
+
+@media only screen and (max-width: 425px) {
+    .first-content {
+        height: 79vh;
+    }
+    .first-content-logo img {
+        width: 2.7rem;
+    }
+    .first-content-image img {
+        width: 250px;
+    }
+    .out-now-socials {
+        width: 70%;
+    }
+    .button-area {
+        flex-wrap: wrap;
+    }
+    .button-area button {
+        width: 90%;
+    }
+    .naacp-winner {
+        height: 55vh;
+    }
+    .naacp-winner img {
+        width: 250px;
+    }
+    .biografy {
+        flex-wrap: wrap;
+    }
+    .bio-image {
+        width: 100vw;
+        padding: 0;
+    }
+    .bio-image img {
+        margin-right: 0;
+        height: auto;
+        width: 350px;
+    }
+    .bio-text {
+        /* background-color: red; */
+        width: 100%;
+        margin-top: -80px;
+        padding-top: 0;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .section-barthology img {
+        width: 250px;
+    }
+    .section-bart-and-friends {
+        margin-top: 0;
+    }
+    .section-bart-and-friends h2 {
+        text-align: center;
+    }
+    .section-bart-and-friends img {
+        width: 250px;
+    }
+    .ytb-section iframe {
+        width: 300px;
+        height: 150px;
+    }
+    #followbart {
+        margin-top: 50px;
+    }
+    .follow-bart {
+        width: 70%;
+    }
+    footer {
+        height: 8vh;
+    }
+    footer span {
+        text-align: center;
+    }
+}
